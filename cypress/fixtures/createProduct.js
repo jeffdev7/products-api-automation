@@ -2,14 +2,14 @@ const {generateRandomId} = require('../utils/generateRandomId')
 let productId = generateRandomId(6);
 
 export const newProduct = {
-    Name: "",
+    Name: "Beer",
     Price: 10.0,
-    Stock: 20
+    Stock: 300
 }
 
 export const availableProduct = {
     Id: productId,
-    Name: "",
+    Name: "Beer",
     Price: 10.0,
     Stock: 20
 

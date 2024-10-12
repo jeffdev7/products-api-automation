@@ -1,7 +1,5 @@
 /// <reference types="cypress"/>
-//const { Given, Then, When, BeforeAll } = require("@badeball/cypress-cucumber-preprocessor")
 import '../../support/api_commands'
-import { newProduct, availableProduct } from '../../fixtures/createProduct'
 
 it('Get all products', () => {
     cy.get_AllProducts().then(response =>{

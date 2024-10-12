@@ -15,18 +15,15 @@ Cypress.Commands.add('get_AllProducts', () => {
     })
 })
 
-
-Cypress.Commands.add('get_ProductById', (data) => {
+Cypress.Commands.add('get_ProductById', (productId) => {
     cy.request({
         method:'GET',
         failOnStatusCode: false,
         url: Cypress.env('url_api') + 'product/' + productId,
-
-        body: data
     })
 })
 
-Cypress.Commands.add('remove_ProductById', () => {
+Cypress.Commands.add('remove_ProductById', (productId) => {
     cy.request({
         method:'DELETE',
         failOnStatusCode: false,
@@ -35,7 +32,7 @@ Cypress.Commands.add('remove_ProductById', () => {
     })
 })
 
-Cypress.Commands.add('update_ProductById', (data) => {
+Cypress.Commands.add('update_ProductById', (productId, data) => {
     cy.request({
         method:'PUT',
         failOnStatusCode: false,
