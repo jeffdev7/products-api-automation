@@ -1,6 +1,6 @@
 # Cypress Automated Test Suite
 ## Overview
-<p> This repository contains an automated test suite using Cypress. The purpose of these tests is to verify the functionality of the products-api endpoints to ensure they meet the expected behaviors.</p>
+<p> This repository contains an automated test suite using Cypress. The purpose of these tests is to verify the functionality of the <a href="https://github.com/jeffdev7/products-api">product-api</a> endpoints to ensure they meet the expected behaviors.</p>
 
 ### Prerequisites
 
