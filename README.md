@@ -10,10 +10,10 @@
 </ul>
 
 ### Environment Configuration
-<p>Create a file cypress.env.json in the root and it should look like this:</p>
+<p>Create a file cypress.env.json in the root and it should look something like this:</p>
 <pre><code>
 {
-  "url_api": "https://api.yourservice.com"
+  "url_api": "https://api.yourservice.com/api/"
 }
 </code></pre>
 
